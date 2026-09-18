@@ -1,0 +1,13 @@
+# L1 — get both gems, roll onto the green pad
+body sphere 0 0.4 0 r 0.35 m 1.2
+body sphere 1.6 0.25 3.0 r 0.16 m 0.05
+layer 1 2 0
+body sphere -1.2 0.25 5.5 r 0.16 m 0.05
+layer 2 2 0
+body box 0 0.12 8.2 size 1.6 0.24 1.6 m 20
+static 3
+layer 3 4 0
+cam 0 4.2 -7
+foc 200
+grav 0 -22 0
+ground 0.22 0.5

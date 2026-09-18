@@ -1,0 +1,23 @@
+# L3 — stairs, hinged sign, long pad
+body sphere -4 0.4 0 r 0.35 m 1.2
+body box -1.5 0.2 2.0 size 1.6 0.4 1.2 m 50
+static 1
+body box 0.2 0.45 3.4 size 1.6 0.4 1.2 m 50
+static 2
+body box 1.8 0.7 4.8 size 1.6 0.4 1.2 m 50
+static 3
+body box 4.2 1.4 5.0 size 0.22 2.6 0.22 m 8
+static 4
+body box 5.1 1.8 5.0 size 0.8 0.14 0.5 m 0.5
+joint hinge 4 5 4.6 1.8 5.0
+body sphere 3.2 0.9 6.2 r 0.16 m 0.05
+layer 6 2 0
+body sphere 5.4 0.25 7.5 r 0.16 m 0.05
+layer 7 2 0
+body box 6.5 0.12 9.0 size 2.0 0.24 2.0 m 20
+static 8
+layer 8 4 0
+cam -3 5 -6
+foc 200
+grav 0 -22 0
+ground 0.22 0.55

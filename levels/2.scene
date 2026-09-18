@@ -1,0 +1,20 @@
+# L2 — crates + pendulum. Don't get flattened.
+body sphere -3 0.4 0 r 0.35 m 1.2
+body box 0.2 0.35 2.4 size 0.7 0.7 0.7 m 1.6
+body box 0.25 1.05 2.45 size 0.7 0.7 0.7 m 1.6
+body box 0.2 1.75 2.4 size 0.7 0.7 0.7 m 1.6
+body sphere 1.8 2.6 1.0 r 0.12 m 1
+static 4
+body sphere 1.8 1.1 1.0 r 0.32 m 0.8
+joint dist 4 5 1.5
+body sphere 2.4 0.25 4.5 r 0.16 m 0.05
+layer 6 2 0
+body sphere -1.0 0.25 6.0 r 0.16 m 0.05
+layer 7 2 0
+body box 0 0.12 8.5 size 1.8 0.24 1.8 m 20
+static 8
+layer 8 4 0
+cam -2 4.5 -6
+foc 210
+grav 0 -22 0
+ground 0.25 0.5
